@@ -1,5 +1,7 @@
+Update netlify.toml to exactly:
+
 [build]
-command = "npm --prefix frontend run build"
+command = "npm --prefix frontend ci && npm --prefix frontend run build"
 publish = "frontend/build"
 
 [[redirects]]
