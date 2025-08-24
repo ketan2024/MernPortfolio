@@ -1,0 +1,9 @@
+[build]
+command = "npm --prefix frontend run build"
+publish = "frontend/build"
+
+[[redirects]]
+from = "/api/*"
+to = "https://mernportfolio-1-8z9p.onrender.com/api/:splat"
+status = 200
+force = true
