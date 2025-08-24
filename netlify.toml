@@ -1,5 +1,6 @@
 [build]
-command = "npm --prefix frontend ci && npm --prefix frontend run build"
+command = "npm --prefix frontend ci --legacy-peer-deps && npm --prefix frontend run build"
+
 publish = "frontend/build"
 
 [[redirects]]
