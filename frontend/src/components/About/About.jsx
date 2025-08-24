@@ -4,30 +4,35 @@ import { Typography } from "@mui/material";
 const About = () => {
   return (
     <div className="about">
-        <div className="aboutContainer"><Typography>this is simple quote</Typography></div>
+        <div className="aboutContainer"><Typography>"Committed to staying ahead of the curve in the ever-evolving tech landscape."
+</Typography></div>
         <div className="aboutContainer2">
             <div>
-                <img src="https://tse3.mm.bing.net/th?id=OIP.3mMigJ4qYKbzgFMRDTUF-gHaFj&pid=Api&P=0"
-                 alt="Jai Shree Ram"
+                <img src="/ketan.jpg"
+                 alt="Ketan"
                  className="aboutAvatar"
                  />
 
                 <Typography variant="h4"
-                style={{ margin: "1vmax 0", color: "black" }}>Jai Shree Ram</Typography>
-                <Typography>Full Stack Developer</Typography>
+                style={{ margin: "1vmax 0", color: "black" }}>Ketan Barahate</Typography>
+                <Typography>MERN Stack Developer</Typography>
                 <Typography style={{ margin: "1vmax 0"}}>I am a Student</Typography>
 
             </div>
            <div>
            <Typography
             style={{
-              wordSpacing: "5px",
+              wordSpacing: "2px",
               lineHeight: "50px",
-              letterSpacing: "5px",
+              letterSpacing: "3px",
               textAlign: "right",
+            
             }}
-          >
-            Jai Shree Ram   
+          > As a dedicated MERN Stack Developer, I specialize in creating high-performance and user-friendly web applications. 
+            Leveraging my expertise in MongoDB, Express.js, Next.js, React and Node.js, 
+             I build scalable back-ends, develop interactive front-ends, and integrate seamless APIs.
+              My focus is on delivering efficient and innovative solutions that address complex challenges and
+              enhance user engagement.
           </Typography>
            </div>
         </div>
