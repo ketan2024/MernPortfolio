@@ -39,7 +39,7 @@ export const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      url: "portfolio.com",
+      url: "https://mernportfolio-1.netlify.app/",
       projectImage: "/portfolio.png",
       projectTitle: "3d Portfolio Website",
       description: " Developed an full stack portfolio website using mern stack.",
