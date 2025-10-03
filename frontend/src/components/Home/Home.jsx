@@ -195,7 +195,7 @@ const Home = ({ timelines, youtubes, skills }) => {
       </div>
 
       <div className="homeYoutube">
-        <Typography variant="h3"> YOUTUBE VIDEOS</Typography>
+        <Typography variant="h3"> Coding Profiles </Typography>
 
         <div className="homeYoutubeWrapper">
           {youtubes.map((item) => (
